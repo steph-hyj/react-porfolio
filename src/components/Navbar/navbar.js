@@ -9,10 +9,8 @@ const Navbar = () => {
         <nav className='navbar'>
             <div className='desktopMenu'>
                 <Link className='desktopMenuListItem'>Accueil</Link>
-                <Link className='desktopMenuListItem'>A propos</Link>
+                <Link className='desktopMenuListItem'>Mes compétences</Link>
                 <Link className='desktopMenuListItem'>Portfolio</Link>
-                <Link className='desktopMenuListItem'>Parcours scolaire</Link>
-                <Link className='desktopMenuListItem'>Parcours professionnel</Link>
                 <Link className='desktopMenuListItem'>Me contacter</Link>
             </div>
             {/* <button className='desktopBtn'>
