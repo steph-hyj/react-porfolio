@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import './intro.css';
-
 import { ImBubbles2 } from "react-icons/im";
+
+import Fullstack from '../../assets/fullstack.png';
+import Fullstack1 from '../../assets/fullstack1.png';
+import './intro.css';
 
 const Intro = () => {
     return (
@@ -20,6 +22,10 @@ const Intro = () => {
                     </p>
                     <Link><button className='btn'><ImBubbles2 alt='contact' className='btnImg'/>Me contacter</button></Link>
                 </span>
+            </div>
+            <div className='fullstack'>
+                <img src={Fullstack} alt='fullstack' className='fullstack1' />
+                <img src={Fullstack1} alt='fullstack' className='fullstack2' />
             </div>
         </section>
     )
