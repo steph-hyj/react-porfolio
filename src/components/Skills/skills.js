@@ -1,6 +1,18 @@
 import React from 'react';
 import './skills.css';
 import react from '../../assets/react.png';
+import node from '../../assets/node.png';
+import vue from '../../assets/vue.png';
+import angular from '../../assets/angular.png';
+import spring from '../../assets/spring.png';
+import js from '../../assets/js.png';
+import htmlcss from '../../assets/htmlcss.png';
+import java from '../../assets/java.png';
+import python from '../../assets/python.png';
+import php from '../../assets/php.png';
+import c from '../../assets/c++.png';
+import mysql from '../../assets/mysql.png';
+import postgres from '../../assets/posdtgres.png';
 
 const Skills = () => {
     return (
@@ -15,87 +27,87 @@ const Skills = () => {
             <span className='skillSubTitle'>Frameworks</span>
             <div className='skillBars'>
                 <div className='skillBar'>
-                    <img src={react} alt='React' className='skillBarImg' />
+                    <img src={react} alt='React' center className='skillBarImg' />
                     <div className='skillBarText'>
-                        <h2>React.js</h2>
+                        <h3>React.js</h3>
                     </div>
                 </div>
                 <div className='skillBar'>
-                    <img src={react} alt='Nodejs' className='skillBarImg' />
+                    <img src={node} alt='Nodejs' className='skillBarImg' />
                     <div className='skillBarText'>
-                        <h2>Nodejs</h2>
+                        <h3>Nodejs</h3>
                     </div>
                 </div>
                 <div className='skillBar'>
-                    <img src='' alt='Vue' className='skillBarImg' />
+                    <img src={vue} alt='Vue' className='skillBarImg' />
                     <div className='skillBarText'>
-                        <h2>Vue.js</h2>
+                        <h3>Vue.js</h3>
                     </div>
                 </div>
                 <div className='skillBar'>
-                    <img src='' alt='Angular' className='skillBarImg' />
+                    <img src={angular} alt='Angular' className='skillBarImg' />
                     <div className='skillBarText'>
-                        <h2>Angular</h2>
+                        <h3>Angular</h3>
                     </div>
                 </div>
                 <div className='skillBar'>
-                    <img src='' alt='Spring' className='skillBarImg' />
+                    <img src={spring} alt='Spring' className='skillBarImg' />
                     <div className='skillBarText'>
-                        <h2>Spring boot</h2>
+                        <h3>Spring boot</h3>
                     </div>
                 </div>
             </div>
             <span className='skillSubTitle'>Langages</span>
             <div className='skillBars'>
                 <div className='skillBar'>
-                    <img src={react} alt='js' className='skillBarImg' />
+                    <img src={js} alt='js' className='skillBarImg' />
                     <div className='skillBarText'>
-                        <h2>Javascript</h2>
+                        <h3>Javascript</h3>
                     </div>
                 </div>
                 <div className='skillBar'>
-                    <img src={react} alt='js' className='skillBarImg' />
+                    <img src={htmlcss} alt='js' className='skillBarImg' />
                     <div className='skillBarText'>
-                        <h2>HTML&CSS</h2>
+                        <h3>HTML&CSS</h3>
                     </div>
                 </div>
                 <div className='skillBar'>
-                    <img src={react} alt='Nodejs' className='skillBarImg' />
+                    <img src={java} alt='Nodejs' className='skillBarImg' />
                     <div className='skillBarText'>
-                        <h2>Java</h2>
+                        <h3>Java</h3>
                     </div>
                 </div>
                 <div className='skillBar'>
-                    <img src='' alt='Vue' className='skillBarImg' />
+                    <img src={python} alt='Vue' className='skillBarImg' />
                     <div className='skillBarText'>
-                        <h2>Python</h2>
+                        <h3>Python</h3>
                     </div>
                 </div>
                 <div className='skillBar'>
-                    <img src='' alt='Angular' className='skillBarImg' />
+                    <img src={php} alt='Angular' className='skillBarImg' />
                     <div className='skillBarText'>
-                        <h2>PHP</h2>
+                        <h3>PHP</h3>
                     </div>
                 </div>
                 <div className='skillBar'>
-                    <img src='' alt='Spring' className='skillBarImg' />
+                    <img src={c} alt='Spring' className='skillBarImg' />
                     <div className='skillBarText'>
-                        <h2>C++</h2>
+                        <h3>C++</h3>
                     </div>
                 </div>
             </div>
             <span className='skillSubTitle'>Système de gestion de base de données</span>
             <div className='skillBars'>
                 <div className='skillBar'>
-                    <img src={react} alt='MySQL' className='skillBarImg' />
+                    <img src={mysql} alt='MySQL' className='skillBarImg' />
                     <div className='skillBarText'>
-                        <h2>MySQL</h2>
+                        <h3>MySQL</h3>
                     </div>
                 </div>
                 <div className='skillBar'>
-                    <img src={react} alt='PostgreSQL' className='skillBarImg' />
+                    <img src={postgres} alt='PostgreSQL' className='skillBarImg' />
                     <div className='skillBarText'>
-                        <h2>PostgreSQL</h2>
+                        <h3>PostgreSQL</h3>
                     </div>
                 </div>
             </div>
